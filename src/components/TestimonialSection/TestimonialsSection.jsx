@@ -1,4 +1,4 @@
-import 'remixicon/fonts/remixicon.css'
+import "remixicon/fonts/remixicon.css";
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -7,42 +7,42 @@ const TestimonialsSection = () => {
       text: "Ganttify has revolutionized the way we manage our projects. Connecting tasks and workflows to our overall company goals has never been easier.",
       name: "Charlotte Harlan",
       position: "Co-Founder, Heroes Digital",
-      image: "src/assets/images/testimonials/charlotte.png",
+      image: "public/assets/images/testimonials/charlotte.png",
     },
     {
       rating: 4.8,
       text: "Using Ganttify has streamlined our project management process. It’s incredibly effective in aligning our daily tasks with the company’s strategic goals.",
       name: "Eleanor Pena",
       position: "Co-Founder, Heroes Digital",
-      image: "src/assets/images/testimonials/eleanor.png",
+      image: "public/assets/images/testimonials/eleanor.png",
     },
     {
       rating: 4.8,
       text: "Ganttify has provided us with a unified view of our projects. It connects our workflows directly to our business goals, making it easier to track progress.",
       name: "Guy Hawkins",
       position: "Co-Founder, Heroes Digital",
-      image: "src/assets/images/testimonials/guy.png",
+      image: "public/assets/images/testimonials/guy.png",
     },
     {
       rating: 4.8,
       text: "Ganttify’s ability to connect tasks with our company’s goals has given us a new level of clarity and efficiency in our project management workflow.",
       name: "Kristin Watson",
       position: "Co-Founder, Heroes Digital",
-      image: "src/assets/images/testimonials/kristin.png",
+      image: "public/assets/images/testimonials/kristin.png",
     },
     {
       rating: 4.8,
       text: "Using Ganttify, we’ve been able to ensure that all our project activities are aligned with our overarching business objectives, leading to better coordination and success.",
       name: "Jane Cooper",
       position: "Co-Founder, Heroes Digital",
-      image: "src/assets/images/testimonials/jane.png",
+      image: "public/assets/images/testimonials/jane.png",
     },
     {
       rating: 4.8,
       text: "Ganttify has transformed our approach to project management. It ensures that every task, no matter how small, is aligned with our company’s mission and goals.",
       name: "Leslie Alexander",
       position: "Co-Founder, Heroes Digital",
-      image: "src/assets/images/testimonials/leslie.png",
+      image: "public/assets/images/testimonials/leslie.png",
     },
   ];
 

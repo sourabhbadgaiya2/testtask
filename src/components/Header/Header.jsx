@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "remixicon/fonts/remixicon.css";
 
 const Header = () => {
@@ -12,8 +11,12 @@ const Header = () => {
   return (
     <header className='flex justify-between items-center p-4 bg-white shadow-md relative'>
       <div className='flex items-center gap-8'>
-        <div className='text-lg font-bold flex gap-2'>
-          <img src={logo} alt='' />
+        <div className='text-lg font-bold flex items-center gap-2'>
+          <img
+            className='w-8'
+            src='public/assets/images/icons/logo.png'
+            alt=''
+          />
           Ganttify
         </div>
         <nav className='hidden md:flex space-x-4'>
@@ -50,21 +53,7 @@ const Header = () => {
           onClick={toggleMenu}
           aria-label='Toggle menu'
         >
-          <svg
-            width='24'
-            height='24'
-            viewBox='0 0 24 24'
-            fill='none'
-            xmlns='http://www.w3.org/2000/svg'
-          >
-            <path
-              d='M3 12H21M3 6H21M3 18H21'
-              stroke='#0D0D12'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-            />
-          </svg>
+          <i className='ri-menu-line text-2xl'></i>
         </button>
       </div>
 

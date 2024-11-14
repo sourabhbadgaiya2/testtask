@@ -9,7 +9,7 @@ const ContactSection = () => {
   if (isSmallScreen) {
     return (
       <div className='p-6 sm:p-0'>
-        <div className='flex items-center rounded-[12vw] sm:rounded-none justify-center md:min-h-screen bg-[url(src/assets/images/ContactBackground.png)] bg-no-repeat bg-cover bg-center px-4'>
+        <div className='flex items-center rounded-[12vw] sm:rounded-none justify-center md:min-h-screen bg-[url(public/assets/images/ContactBackground.png)] bg-no-repeat bg-cover bg-center px-4'>
           <div className='max-w-md w-full p-8 rounded-xl  text-center text-white space-y-6'>
             <h2 className='text-3xl sm:text-3xl font-bold'>
               A Better Way to Work Today, Together
@@ -33,7 +33,7 @@ const ContactSection = () => {
     );
   }
   return (
-    <section className="bg-[url('src/assets/images/ContactBackground.png')] bg-no-repeat bg-cover bg-center py-12 px-4">
+    <section className="bg-[url('public/assets/images/ContactBackground.png')] bg-no-repeat bg-cover bg-center py-12 px-4">
       <div className=' py-12 px-4 md:px-28 flex flex-col md:flex-row gap-52'>
         <div className='mb-12 md:mb-0 md:w-1/2 text-white'>
           <div className='inline-flex gap-2 items-center text-white rounded border border-zinc-500 px-2 py-1 mb-4'>

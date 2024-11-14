@@ -1,9 +1,9 @@
 import React from "react";
-import mailchimp from "../../assets/images/trusted/mailchimp.png";
-import medium from "../../assets/images/trusted/medium.png";
-import microsoft from "../../assets/images/trusted/microsoft.png";
-import evernote from "../../assets/images/trusted/evernote.png";
-import dropbox from "../../assets/images/trusted/dropbox.png";
+import mailchimp from "../../../public/assets/images/trusted/mailchimp.png";
+import medium from "../../../public/assets/images/trusted/medium.png";
+import microsoft from "../../../public/assets/images/trusted/microsoft.png";
+import evernote from "../../../public/assets/images/trusted/evernote.png";
+import dropbox from "../../../public/assets/images/trusted/dropbox.png";
 import "remixicon/fonts/remixicon.css";
 
 const TrustedBy = () => {

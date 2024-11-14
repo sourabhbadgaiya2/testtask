@@ -1,5 +1,4 @@
-
-import 'remixicon/fonts/remixicon.css'
+import "remixicon/fonts/remixicon.css";
 
 const PricingSection = () => {
   const plans = [
@@ -67,31 +66,9 @@ const PricingSection = () => {
   ];
 
   return (
-    <section className="bg-[url('src/assets/images/price.png')] bg-no-repeat bg-cover bg-center py-12 px-4 md:px-28">
+    <section className="bg-[url('public/assets/images/price.png')] bg-no-repeat bg-cover bg-center py-12 px-4 md:px-28">
       <div className='inline-flex gap-2 items-center text-zinc-400 rounded border border-zinc-500 px-2 py-1 mb-4'>
-        <svg
-          width='16'
-          height='16'
-          viewBox='0 0 16 16'
-          fill='none'
-          xmlns='http://www.w3.org/2000/svg'
-        >
-          <path
-            d='M13.4 3.20001H2.60002C1.93728 3.20001 1.40002 3.73727 1.40002 4.40001V11.6C1.40002 12.2628 1.93728 12.8 2.60002 12.8H13.4C14.0628 12.8 14.6 12.2628 14.6 11.6V4.40001C14.6 3.73727 14.0628 3.20001 13.4 3.20001Z'
-            stroke='white'
-            stroke-width='1.5'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-          <path
-            d='M1.40002 6.79999H14.6'
-            stroke='white'
-            stroke-width='1.5'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-        </svg>
-
+        <i className='ri-bank-card-line'></i>
         <p>Pricing</p>
       </div>
       <div className=' py-12 px-4'>
@@ -105,9 +82,7 @@ const PricingSection = () => {
             <button className='py-2 px-6 rounded-md mr-2 bg-white text-black font-semibold'>
               Monthly
             </button>
-            <button className='py-2 px-6 rounded-md'>
-              Annually
-            </button>
+            <button className='py-2 px-6 rounded-md'>Annually</button>
           </div>
         </div>
         <div className='flex flex-wrap gap-6'>
@@ -142,7 +117,7 @@ const PricingSection = () => {
                 {plan.features.map((feature, i) => (
                   <li key={i} className='flex items-center gap-2'>
                     <img
-                      src='src/assets/images/icons/check.png'
+                      src='public/assets/images/icons/check.png'
                       alt='Check icon'
                       className='w-4 h-4'
                     />
