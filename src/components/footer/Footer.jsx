@@ -11,7 +11,7 @@ const Footer = () => {
           <h2 className='text-white flex items-center gap-3 text-lg font-bold mb-4'>
             <img
               className='w-8'
-              src='public/assets/images/icons/footerlogo.png'
+              src='/assets/images/icons/footerlogo.png'
               alt=''
             />
             Ganttify
@@ -52,7 +52,7 @@ const Footer = () => {
         <div className='flex flex-col md:flex-row items-center justify-between mt-10 text-gray-500 text-xs space-y-4 md:space-y-0'>
           <div className='flex w-full md:w-auto items-center bg-gray-800 p-2 rounded space-x-2'>
             <img
-              src='public/assets/images/icons/flag.png'
+              src='/assets/images/icons/flag.png'
               alt='Country Flag'
               className='w-5 h-5'
             />

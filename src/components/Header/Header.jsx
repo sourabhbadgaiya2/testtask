@@ -14,7 +14,7 @@ const Header = () => {
         <div className='text-lg font-bold flex items-center gap-2'>
           <img
             className='w-8'
-            src='public/assets/images/icons/logo.png'
+            src='/assets/images/icons/logo.png'
             alt=''
           />
           Ganttify

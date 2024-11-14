@@ -1,9 +1,3 @@
-import React from "react";
-import mailchimp from "../../../public/assets/images/trusted/mailchimp.png";
-import medium from "../../../public/assets/images/trusted/medium.png";
-import microsoft from "../../../public/assets/images/trusted/microsoft.png";
-import evernote from "../../../public/assets/images/trusted/evernote.png";
-import dropbox from "../../../public/assets/images/trusted/dropbox.png";
 import "remixicon/fonts/remixicon.css";
 
 const TrustedBy = () => {
@@ -15,11 +9,31 @@ const TrustedBy = () => {
         </h2>
       </div>
       <div className='flex flex-wrap justify-center md:justify-between gap-4 max-w-[80%] mx-auto items-center'>
-        <img src={medium} alt='Medium' className='md:w-40 w-32 ' />
-        <img src={mailchimp} alt='Mailchimp' className='md:w-40 w-32 ' />
-        <img src={evernote} alt='Evernote' className='md:w-40 w-32 ' />
-        <img src={dropbox} alt='Dropbox' className='md:w-40 w-32 ' />
-        <img src={microsoft} alt='Microsoft' className='md:w-40 w-32 ' />
+        <img
+          src='/assets/images/trusted/medium.png'
+          alt='Medium'
+          className='md:w-40 w-32 '
+        />
+        <img
+          src='/assets/images/trusted/mailchimp.png'
+          alt='Mailchimp'
+          className='md:w-40 w-32 '
+        />
+        <img
+          src='/assets/images/trusted/evernote.png'
+          alt='Evernote'
+          className='md:w-40 w-32 '
+        />
+        <img
+          src='/assets/images/trusted/dropbox.png'
+          alt='Dropbox'
+          className='md:w-40 w-32 '
+        />
+        <img
+          src='/assets/images/trusted/microsoft.png'
+          alt='Microsoft'
+          className='md:w-40 w-32 '
+        />
       </div>
     </section>
   );

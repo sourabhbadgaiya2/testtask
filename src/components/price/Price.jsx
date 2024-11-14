@@ -66,7 +66,7 @@ const PricingSection = () => {
   ];
 
   return (
-    <section className="bg-[url('public/assets/images/price.png')] bg-no-repeat bg-cover bg-center py-12 px-4 md:px-28">
+    <section className="bg-[url('/assets/images/price.png')] bg-no-repeat bg-cover bg-center py-12 px-4 md:px-28">
       <div className='inline-flex gap-2 items-center text-zinc-400 rounded border border-zinc-500 px-2 py-1 mb-4'>
         <i className='ri-bank-card-line'></i>
         <p>Pricing</p>
@@ -117,7 +117,7 @@ const PricingSection = () => {
                 {plan.features.map((feature, i) => (
                   <li key={i} className='flex items-center gap-2'>
                     <img
-                      src='public/assets/images/icons/check.png'
+                      src='/assets/images/icons/check.png'
                       alt='Check icon'
                       className='w-4 h-4'
                     />

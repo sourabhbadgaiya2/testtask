@@ -5,7 +5,7 @@ const FeaturesSection = () => {
     <section className='py-12 px-4 md:px-28'>
       <div className='inline-flex gap-2 items-center text-zinc-600 rounded border border-zinc-500 px-2 py-1'>
         <img
-          src='public/assets/images/feature/image.png'
+          src='/assets/images/feature/image.png'
           alt='Feature Icon'
           className='h-6 w-6'
         />
@@ -15,7 +15,7 @@ const FeaturesSection = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
         <div className='bg-white p-6 rounded-lg shadow-lg'>
           <img
-            src='public/assets/images/feature/project-management.png'
+            src='/assets/images/feature/project-management.png'
             alt='Project Management'
             className='mb-4 rounded-md'
           />
@@ -29,7 +29,7 @@ const FeaturesSection = () => {
         </div>
         <div className='bg-white p-6 rounded-lg shadow-lg'>
           <img
-            src='public/assets/images/feature/workflows.jpg.png'
+            src='/assets/images/feature/workflows.jpg.png'
             alt='Workflows and Automations'
             className='mb-4 rounded-md'
           />
@@ -43,7 +43,7 @@ const FeaturesSection = () => {
         </div>
         <div className='bg-white p-6 rounded-lg shadow-lg'>
           <img
-            src='public/assets/images/feature/goals.png'
+            src='/assets/images/feature/goals.png'
             alt='Goals and Reporting'
             className='mb-4 rounded-md'
           />
@@ -57,7 +57,7 @@ const FeaturesSection = () => {
         </div>
         <div className='bg-white p-6 rounded-lg shadow-lg'>
           <img
-            src='public/assets/images/feature/resource.png'
+            src='/assets/images/feature/resource.png'
             alt='Resource Management'
             className='mb-4 rounded-md'
           />
