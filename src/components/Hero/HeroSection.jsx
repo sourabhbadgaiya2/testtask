@@ -107,7 +107,7 @@ const HeroSection = () => {
                 alt=''
               />
               <img
-                className='absolute -right-4 sm:-right-2 -bottom-6 sm:-bottom-8 h-[60px] sm:h-[80px] md:h-[100px]'
+                className='absolute -right-4 sm:-right-20 -bottom-6 sm:-bottom-8 h-[60px] sm:h-[80px] md:h-[100px]'
                 src='/assets/images/icons/image3.png'
                 alt=''
               />
